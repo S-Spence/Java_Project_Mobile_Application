@@ -80,22 +80,22 @@ public class Contact {
 	 * Include exception handling for null values and values greater than 10 characters.
 	 * @param string contact ID
 	 */ 
-    public void setContactId(String contactID) {
+    	public void setContactId(String contactID) {
     	
-    	// Only set the contactID for a new contact where the ID is null
-    	if(this.contactID != null) {
-    		throw new UnsupportedOperationException("The contact ID is not updatable.");
-    	}
-    	// Else, set the contact ID if it is 10 character or less and is not null
-    	else {
-    		if(contactID != null && contactID.length() <= 10) {
-    			this.contactID = contactID;
+    		// Only set the contactID for a new contact where the ID is null
+    		if(this.contactID != null) {
+    			throw new UnsupportedOperationException("The contact ID is not updatable.");
     		}
+    		// Else, set the contact ID if it is 10 character or less and is not null
     		else {
-    			throw new IllegalArgumentException("The contact ID cannot exceed 10 characters and cannot be null.");
+    			if(contactID != null && contactID.length() <= 10) {
+    				this.contactID = contactID;
+    			}
+    			else {
+    				throw new IllegalArgumentException("The contact ID cannot exceed 10 characters and cannot be null.");
+    			}
     		}
     	}
-    }
     
 	/* Set first name when a name is provided that is ten characters or less. 
 	 * Include exception handling for null values ad values greater than 10 characters.
