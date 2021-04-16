@@ -1,12 +1,10 @@
 /* --------------------------------------------------------------------------------------------------------
- * Title: 5-1 Milestone Appointment Service
+ * Title: Appointments
  * Date: 2021-04-01
  * Author: Sarah Spence
- * Course: CS 330
- * Instructor: Bryant Moscon
  * Description: This is the appointment class. The class creates a new appointment object containing a unique 
- * 				appointment ID, an appointment date, and an appointment description. The appointment ID is 
- * 				immutable once set. 
+ * 		appointment ID, an appointment date, and an appointment description. The appointment ID is 
+ * 		immutable once set. 
  *---------------------------------------------------------------------------------------------------------
  */
 package appointment;

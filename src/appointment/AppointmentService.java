@@ -1,12 +1,10 @@
 /* --------------------------------------------------------------------------------------------------------
- * Title: 5-1 Milestone Appointment Service
+ * Title: Appointment Service
  * Date: 2021-04-01
  * Author: Sarah Spence
- * Course: CS 330
- * Instructor: Bryant Moscon
  * Description: This is the appointment service class. The class creates a new appointment list object containing 
- * 				appointment objects. The appointment service only adds appointments with a unique ID where the date
- * 				is available. The appointment service deletes appointments per unique Id.
+ * 		appointment objects. The appointment service only adds appointments with a unique ID where the date
+ * 		is available. The appointment service deletes appointments per unique Id.
  *---------------------------------------------------------------------------------------------------------
  */
 package appointment;

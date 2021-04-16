@@ -1,9 +1,7 @@
 /* --------------------------------------------------------------------------------------------------------
- * Title: 4-1 Milestone Task Service
+ * Title: Tasks
  * Date: 2021-03-28
  * Author: Sarah Spence
- * Course: CS 330
- * Instructor: Bryant Moscon
  * Description: This is the task class. The class creates a new task object containing a unique task ID,
  *              a task name, and a task description. The task ID is immutable once set. The values cannot
  *              be null.  

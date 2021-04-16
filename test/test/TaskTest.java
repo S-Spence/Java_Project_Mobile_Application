@@ -1,9 +1,7 @@
 /* --------------------------------------------------------------------------------------------------------
- * Title: 4-1 Milestone Task Service
+ * Title: Task Tests
  * Date: 2021-03-28
  * Author: Sarah Spence
- * Course: CS 330
- * Instructor: Bryant Moscon
  * Description: This is the test class for the task class.  
  *---------------------------------------------------------------------------------------------------------
  */
@@ -17,7 +15,7 @@ import org.junit.jupiter.api.Test;
 
 class TaskTest {
 
-	/*Requirement 1: The task object shall have a required unique ID that is not longer than 10 characters 
+	/*Requirement 1: The task object must have a required unique ID that is not longer than 10 characters 
 	 *               and is not null. The task Id is not updateable.
 	 * Test 1: set the task Id in a new task when the ID is 10 characters or less and is not null
 	 * Test 2: set the task Id in the setTaskId() method with a valid Id
@@ -107,7 +105,7 @@ class TaskTest {
 		});
 	}
 		
-	/* Requirement 2: The task object shall have a required task name that is not longer than 20 characters
+	/* Requirement 2: The task object must have a required task name that is not longer than 20 characters
 	 *               and is not null. 
 	 * Test 1: tests that a new object is created with a valid task name
 	 * Test 2: tests that the setTaskName() method with a valid task name
@@ -169,7 +167,7 @@ class TaskTest {
 		});
 	}
 	
-	/* Requirement 3: The task object shall have a required task description that is not null and is not 
+	/* Requirement 3: The task object must have a required task description that is not null and is not 
 	 *                longer than 50 characters. 
 	 * Test 1: test that a new object is created with a valid task description
 	 * Test 2: test the setTaskDescription() method with a valid description

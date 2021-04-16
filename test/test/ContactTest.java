@@ -1,9 +1,7 @@
 /* --------------------------------------------------------------------------------------------------------
- * Title: 3-1 Milestone Contact Service
+ * Title: Contact Tests
  * Date: 2021-03-28
  * Author: Sarah Spence
- * Course: CS 330
- * Instructor: Bryant Moscon
  * Description: This class contains the unit tests for the contact class.
  *---------------------------------------------------------------------------------------------------------
  */
@@ -18,7 +16,7 @@ import org.junit.jupiter.api.Test;
 class ContactTest {
 	
 	
-	/* Requirement 1: The contact class should have a unique contact ID that cannot be null and cannot be 
+	/* Requirement 1: The contact class must have a unique contact ID that cannot be null and cannot be 
 	 *                longer than 10 characters. The contact ID shall not be updatable. 
 	 *                
 	 * Test 1: set contactID when ten characters or less and not null for a new contact
@@ -114,7 +112,7 @@ class ContactTest {
 	
 
 	
-    /* Requirement 2: The contact class should have a first name string that is not null and is
+    /* Requirement 2: The contact class must have a first name string that is not null and is
      *                not longer than 10 characters.
      * Test 1: set the contact first name if it is less than 10 characters and is not null in new contact
      * Test 2: set the contact first name if it is less than 10 characters and not null in the 
@@ -188,7 +186,7 @@ class ContactTest {
 	}
 	
 
-	/* Requirement 3: The contact class should have a last name string that is not null and is not longer 
+	/* Requirement 3: The contact class must have a last name string that is not null and is not longer 
 	 *                than 10 characters.
      * Test 1: set the contact last name if it is less than 10 characters and is not null in a new contact
      * Test 2: set the contact last name if it is less than 10 characters and is not null in the
@@ -258,7 +256,7 @@ class ContactTest {
 	}
 	
 
-	/* Requirement 4: The contact class should have a phone number string that is not null and is exactly 
+	/* Requirement 4: The contact class must have a phone number string that is not null and is exactly 
 	 *                10 characters.
      * Test 1: set the contact phone number if it is exactly 10 characters and is not null in a new contact.
      * Test 2: set the contact phone number if it is exactly 10 characters and is not null in 
@@ -327,7 +325,7 @@ class ContactTest {
 		});
 	}
 
-	/* Requirement 5: The contact class should have an address string that is not null and is not longer 
+	/* Requirement 5: The contact class must have an address string that is not null and is not longer 
 	 *                than 30 characters.
      * Test 1: set the contact address if it is less than 30 characters and is not null in a new contact
      * Test 2: set the contact address if it is less than 30 characters and is not null with the
