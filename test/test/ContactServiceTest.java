@@ -1,9 +1,7 @@
 /* --------------------------------------------------------------------------------------------------------
- * Title: 3-1 Milestone Contact Service
+ * Title: Contact Service Tests
  * Date: 2021-03-28
  * Author: Sarah Spence
- * Course: CS 330
- * Instructor: Bryant Moscon
  * Description: This class contains the unit tests for the contactService class
  *---------------------------------------------------------------------------------------------------------
  */
@@ -17,7 +15,7 @@ import org.junit.jupiter.api.Assertions;
 class ContactServiceTest {
 
 	
-	/* Requirement 1: The contact service shall be able to add contacts with a unique ID.
+	/* Requirement 1: The contact service must be able to add contacts with a unique ID.
 	 * Test 1: Add new contacts to the list with unique Ids.
 	 * Test 2: Throw Exception when the contact ID is already in the contact list.
 	 */
@@ -65,7 +63,7 @@ class ContactServiceTest {
 		});
 	}
 	
-	/* Requirement 2: The contact service shall be able to delete a contact by its contactID
+	/* Requirement 2: The contact service must be able to delete a contact by its contactID
 	 * Test 1: delete the contact when the ID provided is in the contact list
 	 * Test 2: check that the list remains unchanged when the Id is not in the list
 	 */
@@ -118,7 +116,7 @@ class ContactServiceTest {
 		assertTrue(contactList.getContactList().size() == 3);
 	}
 	
-	/* Requirement 3: The contact class shall be able to update the following contact fields per contact ID: first name, last name,
+	/* Requirement 3: The contact class must be able to update the following contact fields per contact ID: first name, last name,
 	 * 				  phone number, address. 
 	 * Test 1: check that the method to update the first name works when the contact ID is in the list
 	 * Test 2: check that the method to update the last name works when the contact ID is in the list

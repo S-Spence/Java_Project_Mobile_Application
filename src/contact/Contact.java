@@ -1,9 +1,7 @@
 /* --------------------------------------------------------------------------------------------------------
- * Title: 3-1 Milestone Contact Service
+ * Title: Contacts
  * Date: 2021-03-14
  * Author: Sarah Spence
- * Course: CS 330
- * Instructor: Bryant Moscon
  * Description: This is the contact class. The class creates a new contact object containing a unique contact ID,
  *              a contact first name, a contact last name, a contact phone number, and a contact address.
  *              The contact ID is immutable once set. The variables cannot be null.  

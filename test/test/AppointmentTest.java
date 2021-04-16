@@ -1,9 +1,7 @@
 /* --------------------------------------------------------------------------------------------------------
- * Title: 5-1 Milestone Appointment Service
+ * Title: Appointment Tests
  * Date: 2021-04-01
  * Author: Sarah Spence
- * Course: CS 330
- * Instructor: Bryant Moscon
  * Description: This file contains the unit tests for the appointment class.
  *---------------------------------------------------------------------------------------------------------
  */
@@ -18,7 +16,7 @@ import org.junit.jupiter.api.Test;
 
 class AppointmentTest {
 
-	/* Requirement 1: The appointment object shall have a required unique appointment ID that 
+	/* Requirement 1: The appointment object must have a required unique appointment ID that 
 	 *                cannot exceed 10 characters. The appointment ID cannot be null or 
 	 *                updateable. 
 	 *                
@@ -138,7 +136,7 @@ class AppointmentTest {
 		
 	}
 	
-	/* Requirement 2: The appointment object shall have a required appointment Date field. 
+	/* Requirement 2: The appointment object must have a required appointment Date field. 
 	 *                The appointment cannot be in the past and cannot be null.
 	 *                
 	 * Test 1: Test that an appointment is created if the date provided is not in the past.
@@ -272,7 +270,7 @@ class AppointmentTest {
 		});
 	 }
 	 
-	 /* Requirement 3: The appointment shall have a required string field that does not
+	 /* Requirement 3: The appointment must have a required string field that does not
 	  *                exceed 50 characters and cannot be null.
 	  *                
 	  * Test 1: Test that a new appointment is created with a valid appointment description

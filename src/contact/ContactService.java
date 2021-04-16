@@ -1,12 +1,10 @@
 /* --------------------------------------------------------------------------------------------------------
- * Title: 3-1 Milestone Contact Service
+ * Title: Contact Service
  * Date: 2021-03-28
  * Author: Sarah Spence
- * Course: CS 330
- * Instructor: Bryant Moscon
  * Description: This is the contact service class. It stores contact objects. 
- * 				The class also adds contacts per unique contact Id, and deletes and updates contacts
- * 				per contact Id. 
+ * 		The class also adds contacts per unique contact Id, and deletes and updates contacts
+ * 		per contact Id. 
  *---------------------------------------------------------------------------------------------------------
  */
 package contact; 

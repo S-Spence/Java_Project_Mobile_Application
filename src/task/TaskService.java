@@ -1,9 +1,7 @@
 /* --------------------------------------------------------------------------------------------------------
- * Title: 4-1 Milestone Task Service
+ * Title: Task Service
  * Date: 2021-03-28
  * Author: Sarah Spence
- * Course: CS 330
- * Instructor: Bryant Moscon
  * Description: This is the task service class. The class creates a new task list. This class also adds,
  *              deletes, and updates tasks in the task list.  
  *---------------------------------------------------------------------------------------------------------

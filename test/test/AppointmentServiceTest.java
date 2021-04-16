@@ -1,9 +1,7 @@
 /* --------------------------------------------------------------------------------------------------------
- * Title: 5-1 Milestone Appointment Service
+ * Title: Appointment Service Tests
  * Date: 2021-04-01
  * Author: Sarah Spence
- * Course: CS 330
- * Instructor: Bryant Moscon
  * Description: This file contains the test cases for the appointment service class.
  *---------------------------------------------------------------------------------------------------------
  */
@@ -18,7 +16,7 @@ import org.junit.jupiter.api.Test;
 
 class AppointmentServiceTest {
 
-	/* Requirement 1: The appointment service shall be able to add appointments with a unique
+	/* Requirement 1: The appointment service must be able to add appointments with a unique
 	 *                appointment Id.
 	 * Test 1: Add a new appointment to the appointment list with a unique Id and available date
 	 * Test 2: Throw an exception when adding an appointment with an invalid Id
@@ -127,7 +125,7 @@ class AppointmentServiceTest {
 	}
 	
 	
-	/* Requirement 2: The appointment service shall be able to delete an appointment per
+	/* Requirement 2: The appointment service must be able to delete an appointment per
 	 *                appointment Id. 
 	 * Test 1: Delete an appointment from the list with a valid Id
 	 * Test 2: Test that the list remains unchanged when deleting with an invalid Id

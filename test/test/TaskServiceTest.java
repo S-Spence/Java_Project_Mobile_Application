@@ -1,9 +1,7 @@
 /* --------------------------------------------------------------------------------------------------------
- * Title: 4-1 Milestone Task Service
+ * Title: Task Service Tests
  * Date: 2021-03-28
  * Author: Sarah Spence
- * Course: CS 330
- * Instructor: Bryant Moscon
  * Description: This is the test class for the task service class. 
  *---------------------------------------------------------------------------------------------------------
  */
@@ -16,7 +14,7 @@ import org.junit.jupiter.api.Assertions;
 
 public class TaskServiceTest {
 	
-	/* Requirement 1: The task service shall be able to add a task to the task list per
+	/* Requirement 1: The task service must be able to add a task to the task list per
 	 * unique Id. 
 	 * Test 1: Add a new task to the list with a unique id.
 	 * Test 2: Throw exception if the Id exists
@@ -99,7 +97,7 @@ public class TaskServiceTest {
 		assertTrue(taskList.getTaskList().size() == 2);	
 	}
 	
-	/* Requirement 3: The task service shall be able to update task name and descriptions per task Id
+	/* Requirement 3: The task service must be able to update task name and descriptions per task Id
 	 * Test 1: update name when Id is valid
 	 * Test 2: update description when Id is valid
 	 * Test 3: throw exception when updating name with invalid ID
